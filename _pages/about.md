@@ -8,10 +8,10 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
-  more_info: >
-    <p>Email: wtan12 at jhu.edu</p>
-    <p>Center for Language and Speech Processing</p>
-    <p>Johns Hopkins University</p>
+  # more_info: >
+  #   <p>Email: wtan12 at jhu.edu</p>
+  #   <p>Center for Language and Speech Processing</p>
+  #   <p>Johns Hopkins University</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -22,6 +22,7 @@ Hi👋, I'm Weiting Tan! I'm a 2nd year PhD student in Computer Science at Johns
 
 My research interest lies at **machine learning** and **natural language processing**. In particular, I am interested in efficient and scalable representation learning methods for cross-modal applications.
 
+If you have anything to share with me, please feel free to contact me through my email: wtan12 at jhu.edu
 
 
 
