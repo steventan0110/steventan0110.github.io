@@ -1,115 +1,185 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@misc{tan2024diffnormselfsupervisednormalizationnonautoregressive,
+      title={DiffNorm: Self-Supervised Normalization for Non-autoregressive Speech-to-speech Translation}, 
+      author={Weiting Tan and Jingyu Zhang and Lingfeng Shen and Daniel Khashabi and Philipp Koehn},
+      year={2024},
+      eprint={2405.13274},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2405.13274}, 
+      selected={true},
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@misc{tan2024streamingsequencetransductiondynamic,
+      title={Streaming Sequence Transduction through Dynamic Compression}, 
+      author={Weiting Tan and Yunmo Chen and Tongfei Chen and Guanghui Qin and Haoran Xu and Heidi C. Zhang and Benjamin Van Durme and Philipp Koehn},
+      year={2024},
+      eprint={2402.01172},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2402.01172}, 
+      selected={true},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+@inproceedings{pmlr-v235-xu24t,
+  title = {Contrastive Preference Optimization: Pushing the Boundaries of {LLM} Performance in Machine Translation},
+  author = {Xu, Haoran and Sharaf, Amr and Chen, Yunmo and Tan, Weiting and Shen, Lingfeng and Van Durme, Benjamin and Murray, Kenton and Kim, Young Jin},
+  booktitle = {Proceedings of the 41st International Conference on Machine Learning},
+  pages = {55204--55224},
+  year = {2024},
+  editor = {Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix},
+  volume = {235},
+  series = {Proceedings of Machine Learning Research},
+  month = {21--27 Jul},
+  publisher = {PMLR},
+  url = {https://proceedings.mlr.press/v235/xu24t.html},
   selected={true},
-  inspirehep_id = {3255}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{tan-etal-2024-narrowing,
+    title = "Narrowing the Gap between Zero- and Few-shot Machine Translation by Matching Styles",
+    author = "Tan, Weiting  and
+      Xu, Haoran  and
+      Shen, Lingfeng  and
+      Li, Shuyue Stella  and
+      Murray, Kenton  and
+      Koehn, Philipp  and
+      Van Durme, Benjamin  and
+      Chen, Yunmo",
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2024",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-naacl.33",
+    doi = "10.18653/v1/2024.findings-naacl.33",
+    pages = "490--502",
+    abstract = "Large language models trained primarily in a monolingual setting have demonstrated their ability to generalize to machine translation using zero- and few-shot examples with in-context learning. However, even though zero-shot translations are relatively good, there remains a discernible gap comparing their performance with the few-shot setting. In this paper, we investigate the factors contributing to this gap and find that this gap can largely be closed (for about 70{\%}) by matching the writing styles of the target corpus. Additionally, we explore potential approaches to enhance zero-shot baselines without the need for parallel demonstration examples, providing valuable insights into how these methods contribute to improving translation metrics.",
+    selected={true},
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{shen-etal-2024-language,
+    title = "The Language Barrier: Dissecting Safety Challenges of {LLM}s in Multilingual Contexts",
+    author = "Shen, Lingfeng  and
+      Tan, Weiting  and
+      Chen, Sihao  and
+      Chen, Yunmo  and
+      Zhang, Jingyu  and
+      Xu, Haoran  and
+      Zheng, Boyuan  and
+      Koehn, Philipp  and
+      Khashabi, Daniel",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the Association for Computational Linguistics ACL 2024",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand and virtual meeting",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-acl.156",
+    pages = "2668--2680",
+    abstract = "As the influence of large language models (LLMs) spans across global communities, their safety challenges in multilingual settings become paramount for alignment research. This paper examines the variations in safety challenges faced by LLMs across different languages and discusses approaches to alleviating such concerns. By comparing how state-of-the-art LLMs respond to the same set of malicious prompts written in higher- vs. lower-resource languages,we observe that (1) LLMs tend to generate unsafe responses much more often when a malicious prompt is written in a lower-resource language, and (2) LLMs tend to generate more irrelevant responses to malicious prompts in lower-resource languages. To understand where the discrepancy can be attributed, we study the effect of instruction tuning with reinforcement learning from human feedback (RLHF) or supervised finetuning (SFT) on the HH-RLHF dataset. Surprisingly, while training with high-resource languages improves model alignment, training in lower-resource languages yields minimal improvement. This suggests that the bottleneck of cross-lingual alignment is rooted in the pretraining stage. Our findings highlight the challenges in cross-lingual LLM safety, and we hope they inform future research in this direction.",
+    selected={true},
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+
+
+
+@inproceedings{tan-etal-2023-multilingual,
+    title = "Multilingual Representation Distillation with Contrastive Learning",
+    author = "Tan, Weiting  and
+      Heffernan, Kevin  and
+      Schwenk, Holger  and
+      Koehn, Philipp",
+    editor = "Vlachos, Andreas  and
+      Augenstein, Isabelle",
+    booktitle = "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics",
+    month = may,
+    year = "2023",
+    address = "Dubrovnik, Croatia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.eacl-main.108",
+    doi = "10.18653/v1/2023.eacl-main.108",
+    pages = "1477--1490",
+    abstract = "Multilingual sentence representations from large models encode semantic information from two or more languages and can be used for different cross-lingual information retrieval and matching tasks. In this paper, we integrate contrastive learning into multilingual representation distillation and use it for quality estimation of parallel sentences (i.e., find semantically similar sentences that can be used as translations of each other). We validate our approach with multilingual similarity search and corpus filtering tasks. Experiments across different low-resource languages show that our method greatly outperforms previous sentence encoders such as LASER, LASER3, and LaBSE.",
+    selected={true},
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+
+@inproceedings{shen-etal-2023-flatness,
+    title = "Flatness-Aware Prompt Selection Improves Accuracy and Sample Efficiency",
+    author = "Shen, Lingfeng  and
+      Tan, Weiting  and
+      Zheng, Boyuan  and
+      Khashabi, Daniel",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.523",
+    doi = "10.18653/v1/2023.findings-emnlp.523",
+    pages = "7795--7817",
+    abstract = "With growing capabilities of large language models, prompting them has become the dominant way to access them. This has motivated the development of strategies for automatically selecting effective language prompts. In this paper, we introduce **pFlat** (prompt flatness), a new metric to quantify the expected utility of a language prompt. This metric is inspired by *flatness* regularization in statistical learning that quantifies the robustness of the model towards its parameter perturbations. We provide theoretical foundations for this metric and its relationship with other prompt selection metrics, providing a comprehensive understanding of existing methods. Empirically, we show that combining **pFlat** with existing metrics improves both performance and sample efficiency. Our metric outperforms the previous prompt selection metrics with an average increase of 10{\%} in Pearson correlation across 6 classification benchmarks, and the prompt selected by our metric gains 5{\%} higher accuracy than previous metrics across the benchmarks.",
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{xu-etal-2023-condensing,
+    title = "Condensing Multilingual Knowledge with Lightweight Language-Specific Modules",
+    author = "Xu, Haoran  and
+      Tan, Weiting  and
+      Li, Shuyue  and
+      Chen, Yunmo  and
+      Van Durme, Benjamin  and
+      Koehn, Philipp  and
+      Murray, Kenton",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.97",
+    doi = "10.18653/v1/2023.emnlp-main.97",
+    pages = "1575--1587",
+    abstract = "Incorporating language-specific (LS) modules or Mixture-of-Experts (MoE) are proven methods to boost performance in multilingual model performance, but the scalability of these approaches to hundreds of languages or experts tends to be hard to manage. We present Language-specific Matrix Synthesis (LMS), a novel method that addresses the issue. LMS utilizes parameter-efficient and lightweight modules, reducing the number of parameters while outperforming existing methods, e.g., +1.73 BLEU over Switch Transformer on OPUS-100 multilingual translation. Additionally, we introduce Fuse Distillation (FD) to condense multilingual knowledge from multiple LS modules into a single shared module, improving model inference and storage efficiency. Our approach demonstrates superior scalability and performance compared to state-of-the-art methods.",
+}
+
+@inproceedings{tan2024structureaware,
+  title={Structure-Aware Path Inference for Neural Finite State Transducers},
+  author={Weiting Tan and Chu-Cheng Lin and Jason Eisner},
+  booktitle={I Can't Believe It's Not Better Workshop: Failure Modes in the Age of Foundation Models},
+  year={2024},
+  url={https://openreview.net/forum?id=pTEm4Gz7xL},
+}
+
+
+@inproceedings{tan-etal-2022-doubly,
+    title = "Doubly-Trained Adversarial Data Augmentation for Neural Machine Translation",
+    author = "Tan, Weiting  and
+      Ding, Shuoyang  and
+      Khayrallah, Huda  and
+      Koehn, Philipp",
+    editor = "Duh, Kevin  and
+      Guzm{\'a}n, Francisco",
+    booktitle = "Proceedings of the 15th biennial conference of the Association for Machine Translation in the Americas (Volume 1: Research Track)",
+    month = sep,
+    year = "2022",
+    address = "Orlando, USA",
+    publisher = "Association for Machine Translation in the Americas",
+    url = "https://aclanthology.org/2022.amta-research.12",
+    pages = "157--174",
+    abstract = "Neural Machine Translation (NMT) models are known to suffer from noisy inputs. To make models robust, we generate adversarial augmentation samples that attack the model and preserve the source-side meaning at the same time. To generate such samples, we propose a doubly-trained architecture that pairs two NMT models of opposite translation directions with a joint loss function, which combines the target-side attack and the source-side semantic similarity constraint. The results from our experiments across three different language pairs and two evaluation metrics show that these adversarial samples improve model robustness.",
 }
