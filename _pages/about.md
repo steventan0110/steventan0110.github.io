@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Tianjian Li
+title: Weiting (Steven) Tan
 permalink: /
 subtitle: Center for Language and Speech Processing, Johns Hopkins University
 
