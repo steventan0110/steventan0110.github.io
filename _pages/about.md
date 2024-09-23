@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Weiting (Steven) Tan
+title: about
 permalink: /
 subtitle: Center for Language and Speech Processing, Johns Hopkins University
 
