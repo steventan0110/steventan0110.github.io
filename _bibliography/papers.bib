@@ -2,6 +2,44 @@
 ---
 
 
+@inproceedings{romney-robinson-etal-2024-jhu,
+    title = "{JHU} {IWSLT} 2024 Dialectal and Low-resource System Description",
+    author = "Romney Robinson, Nathaniel  and
+      Sun, Kaiser  and
+      Xiao, Cihan  and
+      Bafna, Niyati  and
+      Tan, Weiting  and
+      Xu, Haoran  and
+      Li Xinyuan, Henry  and
+      Kejriwal, Ankur  and
+      Khudanpur, Sanjeev  and
+      Murray, Kenton  and
+      McNamee, Paul",
+    editor = "Salesky, Elizabeth  and
+      Federico, Marcello  and
+      Carpuat, Marine",
+    booktitle = "Proceedings of the 21st International Conference on Spoken Language Translation (IWSLT 2024)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand (in-person and online)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.iwslt-1.19",
+    pages = "140--153",
+    abstract = "Johns Hopkins University (JHU) submitted systems for all eight language pairs in the 2024 Low-Resource Language Track. The main effort of this work revolves around fine-tuning large and publicly available models in three proposed systems: i) end-to-end speech translation (ST) fine-tuning of Seamless4MT v2; ii) ST fine-tuning of Whisper; iii) a cascaded system involving automatic speech recognition with fine-tuned Whisper and machine translation with NLLB. On top of systems above, we conduct a comparative analysis on different training paradigms, such as intra-distillation for NLLB as well as joint training and curriculum learning for SeamlessM4T v2. Our results show that the best-performing approach differs by language pairs, but that i) fine-tuned SeamlessM4T v2 tends to perform best for source languages on which it was pre-trained, ii) multi-task training helps Whisper fine-tuning, iii) cascaded systems with Whisper and NLLB tend to outperform Whisper alone, and iv) intra-distillation helps NLLB fine-tuning.",
+}
+
+
+@misc{lu2024takestwoseamlessnessreward,
+      title={It Takes Two: On the Seamlessness between Reward and Policy Model in RLHF}, 
+      author={Taiming Lu and Lingfeng Shen and Xinyu Yang and Weiting Tan and Beidi Chen and Huaxiu Yao},
+      year={2024},
+      eprint={2406.07971},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2406.07971},
+      abstract={Reinforcement Learning from Human Feedback (RLHF) involves training policy models (PMs) and reward models (RMs) to align language models with human preferences. Instead of focusing solely on PMs and RMs independently, we propose to examine their interactions during fine-tuning, introducing the concept of seamlessness. Our study starts with observing the saturation phenomenon, where continual improvements in RM and PM do not translate into RLHF progress. Our analysis shows that RMs fail to assign proper scores to PM responses, resulting in a 35% mismatch rate with human preferences, highlighting a significant discrepancy between PM and RM. To measure seamlessness between PM and RM without human effort, we propose an automatic metric, SEAM. SEAM quantifies the discrepancies between PM and RM judgments induced by data samples. We validate the effectiveness of SEAM in data selection and model augmentation. Our experiments demonstrate that (1) using SEAM-filtered data for RL training improves RLHF performance by 4.5%, and (2) SEAM-guided model augmentation results in a 4% performance improvement over standard augmentation methods.}
+}
+
 @misc{tan2024diffnormselfsupervisednormalizationnonautoregressive,
       title={DiffNorm: Self-Supervised Normalization for Non-autoregressive Speech-to-speech Translation}, 
       author={Weiting Tan and Jingyu Zhang and Lingfeng Shen and Daniel Khashabi and Philipp Koehn},
@@ -180,6 +218,18 @@
 }
 
 
+@misc{tan2022bitextmininglowresourcelanguages,
+      title={Bitext Mining for Low-Resource Languages via Contrastive Learning}, 
+      author={Weiting Tan and Philipp Koehn},
+      year={2022},
+      eprint={2208.11194},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2208.11194}, 
+}
+
+
+
 @inproceedings{tan-etal-2022-doubly,
     title = "Doubly-Trained Adversarial Data Augmentation for Neural Machine Translation",
     author = "Tan, Weiting  and
@@ -198,3 +248,4 @@
     abstract = "Neural Machine Translation (NMT) models are known to suffer from noisy inputs. To make models robust, we generate adversarial augmentation samples that attack the model and preserve the source-side meaning at the same time. To generate such samples, we propose a doubly-trained architecture that pairs two NMT models of opposite translation directions with a joint loss function, which combines the target-side attack and the source-side semantic similarity constraint. The results from our experiments across three different language pairs and two evaluation metrics show that these adversarial samples improve model robustness.",
     abbr={AMTA}
 }
+
