@@ -10,7 +10,7 @@
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2410.04579}, 
       abstract={Data availability across domains often follows a long-tail distribution: a few domains have abundant data, while most face data scarcity. This imbalance poses challenges in training language models uniformly across all domains. In our study, we focus on multilingual settings, where data sizes vary significantly between high- and low-resource languages. Common strategies to address this include upsampling low-resource languages (Temperature Sampling) or upweighting their loss (Scalarization). Although often considered equivalent, this assumption has not been proven, which motivates our study. Through both theoretical and empirical analysis, we identify the conditions under which these approaches are equivalent and when they diverge. Specifically, we demonstrate that these two methods are equivalent under full gradient descent, but this equivalence breaks down with stochastic gradient descent. Empirically, we observe that Temperature Sampling converges more quickly but is prone to overfitting. We argue that this faster convergence is likely due to the lower variance in gradient estimations, as shown theoretically. Based on these insights, we propose Cooldown, a strategy that reduces sampling temperature during training, accelerating convergence without overfitting to low-resource languages. Our method is competitive with existing data re-weighting and offers computational efficiency.},
-      abbr={preprint}
+      abbr={NAACL}
 }
 
 @misc{tan2024ssralignmentawaremodalityconnector,
