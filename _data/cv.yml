@@ -56,7 +56,7 @@
 - title: Selected Publications
   type: nested_list
   contents:
-    - title: DiffNorm: Self-Supervised Normalization for Non-autoregressive Speech-to-speech Translation
+    - title: DiffNorm Self-Supervised Normalization for Non-autoregressive Speech-to-speech Translation
       items:
         - NeurIPS 2024 (Jingyu Zhang, Lingfen Shen, Daniel Khashabi, Philipp Koehn)
     - title: Contrastive Preference Optimization: Pushing the Boundaries of LLM Performance in Machine Translation
