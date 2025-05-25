@@ -59,7 +59,7 @@
     - title: DiffNorm Self-Supervised Normalization for Non-autoregressive Speech-to-speech Translation
       items:
         - NeurIPS 2024 (Jingyu Zhang, Lingfen Shen, Daniel Khashabi, Philipp Koehn)
-    - title: Contrastive Preference Optimization: Pushing the Boundaries of LLM Performance in Machine Translation
+    - title: Contrastive Preference Optimization Pushing the Boundaries of LLM Performance in Machine Translation
       items:
         - ICML 2024 (Haoran Xu, Amr Sharaf, Yunmo Chen, Benjamin Van Durme, Kenton Murray)
     - title: Multilingual Representation Distillation with Contrastive Learning
