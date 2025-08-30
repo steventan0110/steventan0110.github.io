@@ -20,6 +20,9 @@ social: false # disabling social icons at the bottom
 
 Hi👋, I'm Weiting (Steven) Tan! I'm currently a PhD Candidate in Computer Science at Johns Hopkins University CLSP, advised by Prof. [Philipp Koehn](https://www.cs.jhu.edu/~phi/). Previously, I completed my Undergraduate and Master’s degree in Computer Science at JHU, Go Hop!
 
-My research interest lies at **machine learning** and **natural language processing**. In particular, I am interested in efficient and scalable representation learning methods for cross-modal applications.
+My research interest lies at **machine learning** and **natural language processing**. In particular, I am interested in efficient and scalable representation learning methods for cross-modal applications. I am also interested in derivatives pricing and hedging strategies.
+
+Recently, I spent most effort focusing on allowing multi-modal agents to seamlessly reason, utilize tools, and interact with users.
+
 
 If you have anything to share with me, please feel free to contact me through my email: wtan12 at jhu.edu
