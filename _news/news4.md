@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[Seeing is Believing: Emotion-Aware Audio-Visual Language Modeling for Expressive Speech Generation
-](https://www.arxiv.org/pdf/2508.16188) accepted to EMNLP 2025!
+[Seeing is Believing: Emotion-Aware Audio-Visual Language Modeling for Expressive Speech Generation](https://www.arxiv.org/pdf/2508.16188) accepted to EMNLP 2025!
